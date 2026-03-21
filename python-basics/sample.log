@@ -1,0 +1,30 @@
+2026-03-21 10:15:01 INFO    [main] Application started successfully
+2026-03-21 10:15:03 DEBUG   [config] Loaded config file: /etc/app/config.yaml
+2026-03-21 10:15:05 INFO    [db] Connected to database: postgres://localhost:5432/appdb
+2026-03-21 10:15:07 WARN    [cache] Cache miss for key: user_1042
+2026-03-21 10:15:10 INFO    [auth] User login successful: user_id=1042
+2026-03-21 10:15:12 DEBUG   [api] GET /api/v1/profile -> 200 OK
+2026-03-21 10:15:15 ERROR   [payment] Payment processing failed: transaction_id=TXN8821
+2026-03-21 10:15:18 INFO    [retry] Retrying payment request: attempt=2
+2026-03-21 10:15:20 INFO    [payment] Payment completed successfully: transaction_id=TXN8821
+2026-03-21 10:15:23 DEBUG   [worker] Job queued: job_id=job_7781
+2026-03-21 10:15:25 INFO    [worker] Processing job: job_id=job_7781
+2026-03-21 10:15:28 WARN    [disk] Disk usage reached 78% on /dev/sda1
+2026-03-21 10:15:31 DEBUG   [session] Session refreshed for user_id=1042
+2026-03-21 10:15:34 INFO    [upload] File uploaded: report_march.pdf
+2026-03-21 10:15:36 ERROR   [upload] Virus scan timeout for file: archive.zip
+2026-03-21 10:15:39 INFO    [scheduler] Scheduled task executed: cleanup_temp_files
+2026-03-21 10:15:42 DEBUG   [mail] Sending email to: testuser@example.com
+2026-03-21 10:15:44 INFO    [mail] Email sent successfully: message_id=MSG5510
+2026-03-21 10:15:47 WARN    [network] High latency detected: 421ms
+2026-03-21 10:15:50 INFO    [api] POST /api/v1/orders -> 201 Created
+2026-03-21 10:15:53 DEBUG   [orders] New order payload validated: order_id=ORD9001
+2026-03-21 10:15:56 INFO    [orders] Order shipped: order_id=ORD9001
+2026-03-21 10:15:59 ERROR   [sms] SMS provider unavailable: provider=TwilioMock
+2026-03-21 10:16:02 INFO    [fallback] Switching to backup SMS provider
+2026-03-21 10:16:05 DEBUG   [auth] Token generated for user_id=1042
+2026-03-21 10:16:08 INFO    [logout] User logout successful: user_id=1042
+2026-03-21 10:16:11 WARN    [memory] Memory usage exceeded threshold: 81%
+2026-03-21 10:16:14 DEBUG   [cleanup] Removed 24 temporary files
+2026-03-21 10:16:17 INFO    [main] Health check passed
+2026-03-21 10:16:20 INFO    [main] Application stopped gracefully
