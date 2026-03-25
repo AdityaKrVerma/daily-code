@@ -1,0 +1,3 @@
+> help() -> useful for getting attributes/methods in any object
+> difference between interpreter & compiler -> interpreter does'nt generate any .exe (executable file), does'nt compile the code first before executing but parse line by line (although it does produce bytecode after parsing) whereas compiler compile the code to produce machine code and then execute that
+> JIT(Just In time) execution in python  -> the interpreter while parsing converts frequently used parts of code to machine code before generation of bytecode
