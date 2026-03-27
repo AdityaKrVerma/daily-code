@@ -5,7 +5,7 @@
 2026-03-21 10:15:10 INFO    [auth] User login successful: user_id=1042
 2026-03-21 10:15:12 DEBUG   [api] GET /api/v1/profile -> 200 OK
 2026-03-21 10:15:15 ERROR   [payment] Payment processing failed: transaction_id=TXN8821
-2026-03-21 10:15:18 INFO    [retry] Retrying payment request: attempt=2
+2026-03-21 10:15:18 DEBUG    [retry] Retrying payment request: attempt=2
 2026-03-21 10:15:20 INFO    [payment] Payment completed successfully: transaction_id=TXN8821
 2026-03-21 10:15:23 DEBUG   [worker] Job queued: job_id=job_7781
 2026-03-21 10:15:25 INFO    [worker] Processing job: job_id=job_7781
@@ -14,7 +14,7 @@
 2026-03-21 10:15:34 INFO    [upload] File uploaded: report_march.pdf
 2026-03-21 10:15:36 ERROR   [upload] Virus scan timeout for file: archive.zip
 2026-03-21 10:15:39 INFO    [scheduler] Scheduled task executed: cleanup_temp_files
-2026-03-21 10:15:42 DEBUG   [mail] Sending email to: testuser@example.com
+2026-03-21 10:15:42 WARN   [mail] Sending email to: testuser@example.com
 2026-03-21 10:15:44 INFO    [mail] Email sent successfully: message_id=MSG5510
 2026-03-21 10:15:47 WARN    [network] High latency detected: 421ms
 2026-03-21 10:15:50 INFO    [api] POST /api/v1/orders -> 201 Created
