@@ -16,7 +16,7 @@
 2026-03-21 10:15:39 INFO    [scheduler] Scheduled task executed: cleanup_temp_files
 2026-03-21 10:15:42 WARN   [mail] Sending email to: testuser@example.com
 2026-03-21 10:15:44 INFO    [mail] Email sent successfully: message_id=MSG5510
-2026-03-21 10:15:47 WARN    [network] High latency detected: 421ms
+2026-03-21 10:15:47 ERROR    [network] High latency detected: 421ms
 2026-03-21 10:15:50 INFO    [api] POST /api/v1/orders -> 201 Created
 2026-03-21 10:15:53 DEBUG   [orders] New order payload validated: order_id=ORD9001
 2026-03-21 10:15:56 INFO    [orders] Order shipped: order_id=ORD9001
