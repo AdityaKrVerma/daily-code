@@ -3,4 +3,3 @@
 > self is not a reserved word, anything can be used other than self, but its a convention
 > Difference between function and method: function is standalone and is defined at a module level, method is function defined in a class. function has no implicit first parameter, method has usually self. function operates on passed arguments or global data, method can access and modify internal state(attributes) of an object.
 > Why to write self as first argument in defining method -> So that whenever we call any of the class's methods, python infer that those methods need to run for the current object
-> 
