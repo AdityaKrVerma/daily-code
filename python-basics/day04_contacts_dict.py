@@ -23,5 +23,5 @@ add_contact("Aidan","2468013579")
 
 display_all_contacts();
 
-print(f"Ashley's phone number is: {get_phone_number("Ashley")}")
-print(f"Aidan's phone number is: {get_phone_number("Aidan")}")
+print(f"Ashley's phone number is: {get_phone_number("Aidan")}")
+print(f"Aidan's phone number is: {get_phone_number("Ashley")}")
