@@ -1,8 +1,8 @@
 ## that joins first name and last name,
 ## counts characters, and prints the name in upper and lower case
 
-first_name = input("Enter first name: ")
-last_name = input("Enter last name: ")
+first_name = input("Enter your First name: ")
+last_name = input("Enter your Last name: ")
 
 full_name = first_name + " " + last_name
 
