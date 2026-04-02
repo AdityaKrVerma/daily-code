@@ -15,7 +15,7 @@ def open_file(file_path):
             for line in f:
                 print(line, end="")
     except FileNotFoundError:
-        print(f"The file {file_path} was not found.")
+        print(f"The file at location {file_path} was not found.")
 
 if __name__ == "__main__":
     get_num()
