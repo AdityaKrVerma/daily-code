@@ -3,7 +3,7 @@
 ## square_number(n), and classify_severity(level).
 
 def greet_user(name="friend"):
-    print(f"Hello {name}!")
+    print(f"Hi there {name}!")
 
 def square_number(n):
     return n * n
