@@ -1,6 +1,6 @@
 // Create SimpleMath.java with one class and two methods.
 
-public class SimpleMath {
+public class day08_SimpleMath {
 
     public static int add(int a, int b) {
         return a + b;
